@@ -8,9 +8,29 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
     <style>
         body {
             background-image: url(/img/tiny_grid.png);
+        }
+        
+        figure {
+            display: inline-block;
+        }
+        
+        .wrap {
+            float: left;
+            margin-right: 1rem;
+        }
+        
+        .article {
+            font-family: 'Lora', serif;
+            font-size: 1.5rem;
+        }
+        
+        .mainTitle {
+            font-size: 2rem;
         }
     </style>
 </head>
@@ -21,61 +41,69 @@
             <a class="navbar-item" href="http://penntechreview.com">
                 <img src="/img/PTRLogoSizing-01-01.png" alt="Penn Tech Review" height="100%">
             </a>
-
-            <button class="button navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
         </div>
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Categories</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="#">Bio</a>
+                        <a class="navbar-item" href="#">Entrepreneurship</a>
+                        <a class="navbar-item" href="#">Computer Science</a>
+                        <a class="navbar-item" href="#">Media</a>
+                    </div>
+                </div>
+                <a class="navbar-item" href="#">About Us</a>
+            </div>
+        </div>
+        <button class="button navbar-burger">
+            <span class="navbar-item" href="#">Bio</span>
+            <span class="navbar-item" href="#">Bio</span>
+            <span class="navbar-item" href="#">Bio</span>
+            <span class="navbar-item" href="#">Bio</span>
+        </button>
+
     </nav>
 
+    <section class="hero is-info is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <div class="level">
+                    <div class="level-left">
+                        <div class="level-content">
+                            <h1 class="title">Penn Tech Review 2.0</h1>
+                            <h2 class="subtitle">Building the largest database of inspiring profiles in technology.</h2>
+                        </div>
+                    </div>
+                    <div class="level-right">
+                        <div class="level-content">
+                            <a class="button is-info is-inverted is-outlined"><span class="icon"><i class="fa fa-envelope"></i></span><small>Subscribe</small></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="section" style="width:90%; margin-left:auto; margin-right:auto">
+        <!--Featured 5-->
         <div class="tile is-ancestor">
-            <div class="tile is-vertical is-8">
+            <div class="tile is-vertical is-7">
                 <div class="tile is-vertical">
                     <div class="tile is-parent">
                         <div class="tile is-child box">
-                            <div class="media">
-                                <div class="level">
-                                    <div class="media-left">
-                                        <figure class="image is-128x128">
-                                            <img src="/img/Jacob%20Beckerman-01.svg" alt="Placeholder image">
-                                        </figure>
-                                    </div>
-                                    <div class="media-content" style="justify-vertical:auto">
-                                        <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>
+                            <div class="level">
+                                <div class="level-left">
                                 </div>
-                            </div>
-                            <div class="media">
-                                <div class="media-content">
-                                    <div class="content">
-                                        <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. Mauris quam lorem, lacinia a justo vel, laoreet lobortis orci. Quisque in sapien facilisis, imperdiet metus a, vehicula sem. </p>
-                                    </div>
+                                <div class="level-content">
+                                    <figure class="image is-128x128 wrap">
+                                        <img src="/img/Jacob%20Beckerman-01.svg" alt="Placeholder image" align="left">
+                                    </figure>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div class="tile is-parent">
-                            <div class="tile is-child box">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <div class="content">
-                                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. Mauris quam lorem, lacinia a justo vel, laoreet lobortis orci. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tile is-parent">
-                            <div class="tile is-child box">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <div class="content">
+                                <div class="level-content">
+                                    <p class="title article mainTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <div class="media">
+                                        <div class="media-content">
                                             <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
                                         </div>
                                     </div>
@@ -84,45 +112,69 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tile is-parent is-vertical">
-                <div class="tile is-child box">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="tile">
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <figure class="image is-96x96 wrap">
+                                <img src="/img/Jacob%20Beckerman-01.svg" alt="Placeholder image" align="left">
+                            </figure>
+                            <p class="title article">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <div class="content">
-                                <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat.</p>
+                                <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. Mauris quam lorem, </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <figure class="image is-96x96 wrap">
+                                <img src="/img/Jacob%20Beckerman-01.svg" alt="Placeholder image" align="left">
+                            </figure>
+                            <p class="title article">Lorem ipsum dolor sit, consectetur adipiscing elit.</p>
+                            <div class="content">
+                                <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. Mauris quam lorem, lacinia a justo vel, </p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="tile is-parent is-vertical">
                 <div class="tile is-child box">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <div class="content">
-                                <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
-                            </div>
-                        </div>
+                    <figure class="image is-96x96 wrap">
+                        <img src="/img/Jacob%20Beckerman-01.svg" alt="Placeholder image" align="left">
+                    </figure>
+                    <p class="title article">Lorem ipsum dolor, consectetur adipiscing elit.</p>
+                    <div class="content">
+                        <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                    </div>
+                </div>
+                <div class="tile is-child box">
+                    <figure class="image is-96x96 wrap">
+                        <img src="/img/Jacob%20Beckerman-01.svg" alt="Placeholder image" align="left">
+                    </figure>
+                    <p class="title article">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="content">
+                        <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. Mauris quam lorem, lacinia a </p>
                     </div>
                 </div>
             </div>
         </div>
+        <hr>
+        <!--By category-->
+        <section class="section">
+
+
+        </section>
+
+
+
     </section>
-
-
-
-
-
-
 
 
     <footer class="footer" style="background-color:#FFFFFF">
         <div class="container">
             <div class="content has-text-centered">
                 <p>
-                    <strong>Penn Tech Review</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                    <strong>Penn Tech Review</strong> © 2017, all rights reserved. Made with ♥ at the Univeresity of Pennsylvania.
                 </p>
             </div>
         </div>
