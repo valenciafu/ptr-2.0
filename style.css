@@ -1,0 +1,21 @@
+body {
+    background-image: url(/img/tiny_grid.png);
+}
+
+figure {
+    display: inline-block;
+}
+
+.wrap {
+    float: left;
+    margin-right: 1rem;
+}
+
+.article {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+}
+
+.mainTitle {
+    font-size: 2rem;
+}
