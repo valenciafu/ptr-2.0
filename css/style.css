@@ -10,6 +10,12 @@ body {
     margin-right: auto;
 }
 
+.container-75 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a:hover {
     text-decoration-color: none;
 }
@@ -55,10 +61,18 @@ figure {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .article-byline {
     color: #757575;
     font-weight: 500;
+}
+
+.article-body {
+    width: inherit;
+    font-family: 'Lora', serif;
+    color: #212121;
+    font-size: 1.3rem;
+    line-height: 2rem;
 }
