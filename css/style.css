@@ -30,15 +30,14 @@ figure {
 }
 
 .article-title {
-    font-family: 'Lora', serif;
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 
 .page-title {
     font-family: 'Lora', serif;
     font-size: 2.5rem;
-    line-height: 3.5rem;
+    line-height: 3rem;
 }
 
 .category-title {
