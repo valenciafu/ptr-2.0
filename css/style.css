@@ -30,6 +30,7 @@ figure {
 }
 
 .article-title {
+    /*font-family: 'Lora', serif;*/
     font-size: 1.5rem;
     line-height: 1.8rem;
 }
@@ -70,8 +71,20 @@ figure {
 
 .article-body {
     width: inherit;
-    font-family: 'Lora', serif;
+    /*font-family: 'Lora', serif;*/
     color: #212121;
     font-size: 1.3rem;
     line-height: 2rem;
+    /*background-color: #FFFFFF;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;*/
+}
+
+.h2 {
+    font-family: 'Lora', serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
 }
