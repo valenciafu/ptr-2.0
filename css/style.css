@@ -30,7 +30,7 @@ figure {
 }
 
 .article-title {
-    /*font-family: 'Lora', serif;*/
+    font-family: 'Lora', serif;
     font-size: 1.5rem;
     line-height: 1.8rem;
 }
