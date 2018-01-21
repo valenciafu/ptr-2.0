@@ -11,12 +11,13 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
-    <style>
+    <style>        
         .box:hover {
             border-left-style:solid;
             border-left-width:8px;
             border-left-color:#00bcad;
             transition-duration: 0.3s;
+            padding-left: 1rem;
         }
     </style>
 </head>
@@ -79,13 +80,38 @@
     <section class="section">
         <div class="container-85">
 
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical">
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                        </div>
+                        <div class="tile is-child box">
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                        </div>
+                        <div class="tile is-child box">
+                        </div>
+                        <div class="tile is-child box">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br><br>
+
+
+
+
             <!--latest release-->
             <div class="tile is-ancestor ">
+                <!--the vertical parent holding 2 invisible stacked cells-->
                 <div class="tile is-vertical">
                     <div class="tile is-parent">
                         <a href="./article.html">
                         <div class="tile is-child box">
-                            <figure class="image is-128x128 wrap ">
+                            <figure class="image is-96x96 wrap ">
                                 <img src="./img/Jacob%20Beckerman-01.svg " alt="Placeholder image " align="left ">
                             </figure>
                             <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -111,7 +137,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tile">
+                    <div class="tile is-parent">
                         <div class="tile is-child box ">
                             <figure class="image is-96x96 wrap ">
                                 <img src="./img/Dylan%20Diamond-01.svg " alt="Placeholder image " align="left ">
