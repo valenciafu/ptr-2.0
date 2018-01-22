@@ -1,7 +1,7 @@
 /*homepage and universals*/
 
 body {
-    background-image: url(../img/tiny_grid.png);
+    /*background-image: url(../img/tiny_grid.png);*/
 }
 
 .container-85 {
@@ -30,13 +30,13 @@ figure {
 }
 
 .article-title {
-    font-family: 'Lora', serif;
+    /*font-family: 'Lora', serif;*/
     font-size: 1.5rem;
     line-height: 1.8rem;
 }
 
 .page-title {
-    font-family: 'Lora', serif;
+    /*font-family: 'Roboto Slab', serif;*/
     font-size: 2.5rem;
     line-height: 3rem;
 }
@@ -72,8 +72,8 @@ figure {
 .article-body {
     width: inherit;
     /*font-family: 'Lora', serif;*/
-    color: #212121;
-    font-size: 1.3rem;
+    color: #555555;
+    font-size: 1.1rem;
     line-height: 2rem;
     /*background-color: #FFFFFF;
     padding-left: 2rem;
