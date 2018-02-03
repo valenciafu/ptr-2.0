@@ -89,3 +89,13 @@ figure {
     margin-bottom: 1rem;
 }
 
+/*About page*/
+.name {
+    font-size: 1.5rem;
+    font-weight: 600
+}
+
+.school {
+    font-style: italic
+}
+
