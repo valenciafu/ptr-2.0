@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
 
 <head>
     <meta charset="utf-8">
@@ -7,16 +7,31 @@
     <title>Penn Tech Review</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+>>>>>>> 1a522e171d96dc4e5bd0e333003fbd084f97d145
 
     <link rel="stylesheet" href="./css/style.css">
 
-
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+    <style>
+
+        .box:hover {
+            border-left-style:solid;
+            border-left-width:8px;
+            border-left-color:#00bcad;
+            transition-duration: 0.3s;
+            padding-left: 1rem;
+        }
+    </style>
 </head>
 
 <body>
     <!--navbar top-->
-    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="./index.html">
                 <img src="./img/PTRLogoSizing-01-01.png" alt="Penn Tech Review" height="100%">
@@ -45,8 +60,6 @@
     </nav>
     <!--end navbar top-->
 
-
-
     <!--homepage hero-->
     <section class="hero is-info is-bold">
         <div class="hero-body">
@@ -60,7 +73,7 @@
                     </div>
                     <div class="level-right">
                         <div class="level-content ">
-                            <a class="button is-info is-inverted is-outlined "><span class="icon "><i class="fa fa-envelope "></i></span><small>Subscribe</small></a>
+                            <a class="button is-info is-inverted is-rounded is-outlined"><span class="icon "><i class="fa fa-envelope "></i></span><small>Subscribe</small></a>
                         </div>
                     </div>
                 </div>
@@ -68,36 +81,35 @@
         </div>
     </section>
 
-    <!--all the rest of the content-->
+    <!--all the rest of the page-->
     <section class="section">
         <div class="container-85">
+
+            <section class="hero is-danger is-bold is-small">
+                <div class="hero-body">
+                    <div class="container">
+                        <h3 class="title" style="font-size:1.5rem; font-style:italic">Issue 9</h3>
+                    </div>
+                </div>
+            </section>
+            <br>
 
             <!--latest release-->
             <div class="tile is-ancestor ">
                 <div class="tile is-vertical is-8 ">
                     <div class="tile is-parent ">
-
+                        <a href="./article.html">
                         <div class="tile is-child box">
-                            <a href="./article.html">
-                                <div class="level ">
-                                    <div class="level-left ">
-                                    </div>
-                                    <div class="level-content ">
-                                        <figure class="image is-128x128 wrap ">
-                                            <img src="./img/Jacob%20Beckerman-01.svg " alt="Placeholder image " align="left ">
-                                        </figure>
-                                    </div>
-                                    <div class="level-content ">
-                                        <p class="title article-title" style="font-size:250%; line-height:130%">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <div class="media ">
-                                            <div class="media-content big-box">
-                                                <p style="font-size:150%">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                            <!--<figure class="image is-128x128 wrap ">
+                                <img src="./img/Jacob%20Beckerman-01.svg " alt="Placeholder image " align="left ">
+                            </figure>-->
+                            <figure class="image is-2by1">
+                                <img src="./img/article-sample.jpg" alt="Placeholder image " align="left " style="padding-bottom:0.5rem">
+                            </figure>
+                            <h3 class="title is-3 article-title" style="font-size:2.2rem; line-height:2.8rem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p style="font-size:1.2rem; font-family: 'Merriweather', serif">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>        
                         </div>
+                        </a>
                     </div>
 
                     <div class="tile ">
@@ -107,19 +119,19 @@
                                     <img src="./img/Abhi%20Ramesh-01.svg " alt="Placeholder image " align="left ">
                                 </figure>
                                 <p class="title article-title ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <div class="content ">
+                                <div class="content" style="font-family: 'Merriweather', serif">
                                     <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. Mauris quam lorem, </p>
                                 </div>
                             </div>
                         </div>
                         <div class="tile is-parent ">
                             <div class="tile is-child box ">
-                                <figure class="image is-96x96 wrap ">
+                                <!--<figure class="image is-96x96 wrap ">
                                     <img src="./img/Dylan%20Diamond-01.svg " alt="Placeholder image " align="left ">
-                                </figure>
-                                <p class="title article-title ">Lorem ipsum dolor sit, consectetur adipiscing elit.</p>
-                                <div class="content ">
-                                    <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. Mauris quam lorem, lacinia a justo vel, </p>
+                                </figure>-->
+                                <p class="title article-title ">Entrepreneurship is Applied Philosophy</p>
+                                <div class="content " style="font-family: 'Merriweather', serif">
+                                    <p>Meet Edward Lando, the entrepreneurial romantic who might just transform your most ambitious idea into a full-fledged company. </p>
                                 </div>
                             </div>
                         </div>
@@ -131,16 +143,16 @@
                             <img src="./img/Jesse%20Pujji-01.svg " alt="Placeholder image " align="left ">
                         </figure>
                         <p class="title article-title ">Lorem ipsum dolor, consectetur adipiscing elit.</p>
-                        <div class="content ">
+                        <div class="content " style="font-family: 'Merriweather', serif">
                             <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
                         </div>
                     </div>
                     <div class="tile is-child box ">
-                        <figure class="image is-96x96 wrap ">
-                            <img src="./img/Mayank%20Mishra-01.svg " alt="Placeholder image " align="left ">
+                        <figure class="image is-4by3">
+                            <img src="./img/article-sample.jpg" alt="Placeholder image " align="left " style="padding-bottom:0.5rem">
                         </figure>
                         <p class="title article-title ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <div class="content ">
+                        <div class="content " style="font-family: 'Merriweather', serif">
                             <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. Mauris quam lorem, lacinia a </p>
                         </div>
                     </div>
@@ -153,18 +165,17 @@
 
         <!--By category-->
         <div class="container-85 category-group">
-            <div class="level">
-                <div class="level-left">
-                    <div class="level-item">
-                        <p class="category-title">Biotechnology</p>
+            <section class="hero is-success is-bold is-small" style="margin-top:3rem; margin-bottom:2rem">
+                <div class="hero-body">
+                    <div class="container">
+                        <h3 class="title" style="font-size:1.5rem">Browse by category</h3>
                     </div>
                 </div>
-                <div class="level-right">
-                    <div class="level-item">
-                        <p><small>MORE ></small></p>
-                    </div>
-                </div>
-            </div>
+            </section>
+
+            <p class="category-title" style="display:inline; align-self: justify;">Biotechnology</p>
+            <p class="is-pulled-right" style="display:inline"><small>MORE ></small></p>
+
             <div class="tile is-ancestor ">
                 <div class="tile is-parent is-6">
                     <div class="tile is-child box ">
@@ -273,7 +284,7 @@
     </section>
 
     <!--footer-->
-    <footer class="footer " style="background-color:#FFFFFF ">
+    <footer class="footer " style="background-color:#f4f4f4 ">
         <div class="container ">
             <div class="content has-text-centered ">
                 <p>
