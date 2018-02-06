@@ -7,24 +7,34 @@
     <title>Penn Tech Review</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-<<<<<<< HEAD
-=======
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
->>>>>>> 1a522e171d96dc4e5bd0e333003fbd084f97d145
-
     <link rel="stylesheet" href="./css/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
     <style>
-
+        .box {
+            padding: 1.5rem;
+        }
         .box:hover {
             border-left-style:solid;
             border-left-width:8px;
             border-left-color:#00bcad;
             transition-duration: 0.3s;
             padding-left: 1rem;
+        }
+
+        .box h3 {
+            font-size: 1.5rem;
+        }
+
+        .box p {
+            color: #555555;
+            font-family: 'Merriweather', serif;
+        }
+
+        .title .is-3 {
+            font-size: 1rem;
         }
     </style>
 </head>
@@ -48,7 +58,7 @@
                         <a class="navbar-item" href="#">Media</a>
                     </div>
                 </div>
-                <a class="navbar-item" href="#">About Us</a>
+                <a class="navbar-item" href="./about.html">About Us</a>
             </div>
         </div>
         <button class="button navbar-burger">
@@ -84,7 +94,6 @@
     <!--all the rest of the page-->
     <section class="section">
         <div class="container-85">
-
             <section class="hero is-danger is-bold is-small">
                 <div class="hero-body">
                     <div class="container">
@@ -93,74 +102,99 @@
                 </div>
             </section>
             <br>
-
-            <!--latest release-->
+            <!--Most recent release start-->
             <div class="tile is-ancestor ">
-                <div class="tile is-vertical is-8 ">
-                    <div class="tile is-parent ">
-                        <a href="./article.html">
-                        <div class="tile is-child box">
-                            <!--<figure class="image is-128x128 wrap ">
-                                <img src="./img/Jacob%20Beckerman-01.svg " alt="Placeholder image " align="left ">
-                            </figure>-->
-                            <figure class="image is-2by1">
+                <div class="tile is-parent is-vertical is-7">
+                    <a href="./article.html">
+                    <div class="tile is-child box">
+                        <div class="box-content">
+                            <figure class="image is-3by2">
                                 <img src="./img/article-sample.jpg" alt="Placeholder image " align="left " style="padding-bottom:0.5rem">
                             </figure>
                             <h3 class="title is-3 article-title" style="font-size:2.2rem; line-height:2.8rem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                            <p style="font-size:1.2rem; font-family: 'Merriweather', serif">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>        
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="tile ">
-                        <div class="tile is-parent ">
-                            <div class="tile is-child box ">
-                                <figure class="image is-96x96 wrap ">
-                                    <img src="./img/Abhi%20Ramesh-01.svg " alt="Placeholder image " align="left ">
-                                </figure>
-                                <p class="title article-title ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <div class="content" style="font-family: 'Merriweather', serif">
-                                    <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. Mauris quam lorem, </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tile is-parent ">
-                            <div class="tile is-child box ">
-                                <!--<figure class="image is-96x96 wrap ">
-                                    <img src="./img/Dylan%20Diamond-01.svg " alt="Placeholder image " align="left ">
-                                </figure>-->
-                                <p class="title article-title ">Entrepreneurship is Applied Philosophy</p>
-                                <div class="content " style="font-family: 'Merriweather', serif">
-                                    <p>Meet Edward Lando, the entrepreneurial romantic who might just transform your most ambitious idea into a full-fledged company. </p>
-                                </div>
-                            </div>
-                        </div>
+                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                        </div>  
+                    </div>      
+                    </a>
+                    <br>
+                    <div class="tile is-child box">
+                        <div class="box-content">
+                            <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                        </div>        
                     </div>
                 </div>
-                <div class="tile is-parent is-vertical ">
-                    <div class="tile is-child box ">
-                        <figure class="image is-96x96 wrap ">
-                            <img src="./img/Jesse%20Pujji-01.svg " alt="Placeholder image " align="left ">
-                        </figure>
-                        <p class="title article-title ">Lorem ipsum dolor, consectetur adipiscing elit.</p>
-                        <div class="content " style="font-family: 'Merriweather', serif">
+                <div class="tile is-parent is-vertical">
+                    <div class="tile is-child box">
+                        <div class="box-content">
+                            <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
                             <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
-                        </div>
+                        </div>        
                     </div>
-                    <div class="tile is-child box ">
-                        <figure class="image is-4by3">
-                            <img src="./img/article-sample.jpg" alt="Placeholder image " align="left " style="padding-bottom:0.5rem">
-                        </figure>
-                        <p class="title article-title ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <div class="content " style="font-family: 'Merriweather', serif">
-                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. Mauris quam lorem, lacinia a </p>
-                        </div>
+                    <div class="tile is-child box">
+                        <div class="box-content">
+                            <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                        </div>        
+                    </div>
+                    <div class="tile is-child box">
+                        <div class="box-content">
+                            <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                        </div>        
                     </div>
                 </div>
             </div>
-
             <hr>
-
+        </div>
+        <!--Most recent release end-->
+        <div class="container-85 category-group">
+            <section class="hero is-success is-bold is-small" style="margin-top:3rem; margin-bottom:2rem">
+                <div class="hero-body">
+                    <div class="container">
+                        <h3 class="title" style="font-size:1.5rem">Last issue</h3>
+                    </div>
+                </div>
+            </section>
+            <div class="tile is-ancestor ">
+                <div class="tile is-parent is-vertical is-6">
+                    <a href="./article.html">
+                    <div class="tile is-child box">
+                        <div class="box-content">
+                            <h3 class="title article-title" style="font-size:2rem; line-height:2.5rem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                        </div>  
+                    </div>      
+                    </a>
+                    <br>
+                    <div class="tile is-child box">
+                        <div class="box-content">
+                            <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                        </div>        
+                    </div>
+                </div>
+                <div class="tile is-parent is-vertical">
+                    <div class="tile is-child box">
+                        <div class="box-content">
+                            <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                        </div>        
+                    </div>
+                    <div class="tile is-child box">
+                        <div class="box-content">
+                            <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                        </div>        
+                    </div>
+                    <div class="tile is-child box">
+                        <div class="box-content">
+                            <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                        </div>        
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--By category-->
