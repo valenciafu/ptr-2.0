@@ -28,15 +28,6 @@
             padding-left: 1rem;
         }
 
-        .box h3 {
-            font-size: 1.5rem;
-        }
-
-        .box p {
-            color: #555555;
-            font-family: 'Merriweather', serif;
-        }
-
         .title .is-3 {
             font-size: 1rem;
         }
@@ -50,6 +41,11 @@
             <a class="navbar-item" href="./index.html">
                 <img src="./img/PTRLogoSizing-01-01.png" alt="Penn Tech Review" height="100%">
             </a>
+            <button class="button is-dark navbar-burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
         </div>
         <div class="navbar-menu">
             <div class="navbar-end">
@@ -65,12 +61,6 @@
                 <a class="navbar-item" href="./about.html">About Us</a>
             </div>
         </div>
-        <button class="button navbar-burger">
-            <span class="navbar-item" href="#">Bio</span>
-            <span class="navbar-item" href="#">Bio</span>
-            <span class="navbar-item" href="#">Bio</span>
-            <span class="navbar-item" href="#">Bio</span>
-        </button>
     </nav>
     <!--end navbar top-->
 
@@ -97,7 +87,7 @@
 
     <!--all the rest of the page-->
     <section class="section">
-        <div class="container-85">
+        <div class="container-75">
             <section class="hero is-primary is-small">
                 <div class="hero-body">
                     <div class="container">
@@ -116,7 +106,7 @@
                                 <img src="./img/solutionloft.jpg" alt="Placeholder image " align="left " style="padding-bottom:0.5rem">
                             </figure>
                             <h3 class="title is-3 article-title" style="font-size:2.2rem; line-height:2.8rem">It’s time developers get the help they need</h3>
-                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                            <p class="article-blurb">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
                         </div>  
                     </div>      
                     </a>
@@ -124,7 +114,7 @@
                     <div class="tile is-child box">
                         <div class="box-content">
                             <h3 class="title article-title">Meet Jean Gallier</h3>
-                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                            <p class="article-blurb">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
                         </div>        
                     </div>
                 </div>
@@ -132,20 +122,27 @@
                     <div class="tile is-child box">
                         <div class="box-content">
                             <h3 class="title article-title">Danielle Bassett: Using graph theory to better understand how we think</h3>
-                            <p>Learn how this Penn researcher and professor is applying graph theory and statistical mechanics to shed new light on how we learn</p><br>
+                            <p class="article-blurb">Learn how this Penn researcher and professor is applying graph theory and statistical mechanics to shed new light on how we learn</p>
                         </div>        
                     </div>
                     <div class="tile is-child box">
                         <div class="box-content">
                             <h3 class="title article-title">Chasing dreams in the cloud</h3>
-                            <p>Follow an impromptu solution to one of the biggest bottlenecks in robotics</p>
+                            <p class="article-blurb">Follow an impromptu solution to one of the biggest bottlenecks in robotics</p>
                         </div>        
                     </div>
-                    <div class="tile is-child box">
-                        <div class="box-content">
-                            <h3 class="title article-title">Modern Media: Making the World Feel Just a Bit Smaller</h3>
-                            <p>Read about David Wertime and his journey as a world journalist and entrepreneur</p>
-                        </div>        
+                    <div class="tile is-child box ">
+                        <div class="level ">
+                            <div class="level-content ">
+                                <figure class="image is-96x96 wrap ">
+                                    <img src="./img/Jacob%20Beckerman-01.svg " alt="Placeholder image " align="left ">
+                                </figure>
+                            </div>
+                            <div class="level-content ">
+                                <h3 class="title article-title">Modern media: Making the world seem a whole lot smaller</h3>
+                            </div>
+                        </div>
+                        <p class="article-blurb">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
                     </div>
                 </div>
             </div>
@@ -153,7 +150,7 @@
         </div>
         <!--Most recent release end-->
         <!--Last release end-->
-        <div class="container-85 category-group">
+        <div class="container-75 category-group">
             <section class="hero is-success is-bold is-small" style="margin-top:3rem; margin-bottom:2rem">
                 <div class="hero-body">
                     <div class="container">
@@ -163,36 +160,50 @@
             </section>
             <div class="tile is-ancestor ">
                 <div class="tile is-parent is-vertical is-5">
-                    <div class="tile is-child box">
-                        <div class="box-content">
-                            <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
-                        </div>        
+                    <div class="tile is-child box ">
+                        <div class="level ">
+                            <div class="level-content ">
+                                <figure class="image is-96x96 wrap ">
+                                    <img src="./img/Jacob%20Beckerman-01.svg " alt="Placeholder image " align="left ">
+                                </figure>
+                            </div>
+                            <div class="level-content ">
+                                <h3 class="title article-title">Modern media: Making the world seem a whole lot smaller</h3>
+                            </div>
+                        </div>
+                        <p class="article-blurb">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
                     </div>
-                    <div class="tile is-child box">
-                        <div class="box-content">
-                            <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
-                        </div>        
+                    <div class="tile is-child box ">
+                        <div class="level ">
+                            <div class="level-content ">
+                                <figure class="image is-96x96 wrap ">
+                                    <img src="./img/Jacob%20Beckerman-01.svg " alt="Placeholder image " align="left ">
+                                </figure>
+                            </div>
+                            <div class="level-content ">
+                                <h3 class="title article-title">Modern media: Making the world seem a whole lot smaller</h3>
+                            </div>
+                        </div>
+                        <p class="article-blurb">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
                     </div>
                 </div>
                 <div class="tile is-parent is-vertical">
                     <div class="tile is-child box">
                         <div class="box-content">
                             <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                            <p class="article-blurb">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
                         </div>        
                     </div>
                     <div class="tile is-child box">
                         <div class="box-content">
                             <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                            <p class="article-blurb">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
                         </div>        
                     </div>
                     <div class="tile is-child box">
                         <div class="box-content">
                             <h3 class="title article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                            <p>Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
+                            <p class="article-blurb">Proin posuere vel libero vel ultricies. Cras malesuada nulla vitae nulla finibus feugiat. </p>
                         </div>        
                     </div>
                 </div>
